@@ -11,7 +11,10 @@ Web3.js v1.10.0
 
 ## 실행
 ```bash
-truffle migrate
+개발 환경
+truffle migrate --network development
+테스트넷 환경
+truffle migrate --network testnet
 
 // --compile-all : 모든 소스코드 강제 재컴파일
 // --reset : migrations 내의 .sol 파일 모두 실행
